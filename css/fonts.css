@@ -1,0 +1,185 @@
+/*SF-Pro-Display*/
+
+@font-face {
+  font-family: 'SF-D-Black';
+  src: url("../fonts/SF-Pro-Display/SF-Pro-Display-Black.otf") format('otf')
+}
+
+@font-face {
+  font-family: 'SF-D-Black-Italic';
+  src: url("../fonts/SF-Pro-Display/SF-Pro-Display-BlackItalic.otf") format('otf')
+}
+
+@font-face {
+  font-family: 'SF-D-Bold';
+  src: url("../fonts/SF-Pro-Display/SF-Pro-Display-Bold.otf") format('otf')
+}
+
+@font-face {
+  font-family: 'SF-D-Bold-Italic';
+  src: url("../fonts/SF-Pro-Display/SF-Pro-Display-BoldItalic.otf") format('otf')
+}
+
+@font-face {
+  font-family: 'SF-D-Heavy';
+  src: url("../fonts/SF-Pro-Display/SF-Pro-Display-Heavy.otf") format('otf')
+}
+
+@font-face {
+  font-family: 'SF-D-Heavy-Italic';
+  src: url("../fonts/SF-Pro-Display/SF-Pro-Display-HeavyItalic.otf") format('otf')
+}
+
+@font-face {
+  font-family: 'SF-D-Light';
+  src: url("../fonts/SF-Pro-Display/SF-Pro-Display-Light.otf") format('otf')
+}
+
+@font-face {
+  font-family: 'SF-D-Light-Italic';
+  src: url("../fonts/SF-Pro-Display/SF-Pro-Display-LightItalic.otf") format('otf')
+}
+
+@font-face {
+  font-family: 'SF-D-Medium';
+  src: url("../fonts/SF-Pro-Display/SF-Pro-Display-Medium.otf") format('otf')
+}
+
+@font-face {
+  font-family: 'SF-D-Medium-Italic';
+  src: url("../fonts/SF-Pro-Display/SF-Pro-Display-MediumItalic.otf") format('otf')
+}
+
+@font-face {
+  font-family: 'SF-D-Regular';
+  src: url("../fonts/SF-Pro-Display/SF-Pro-Display-Regular.otf") format('otf')
+}
+
+@font-face {
+  font-family: 'SF-D-Regular-Italic';
+  src: url("../fonts/SF-Pro-Display/SF-Pro-Display-RegularItalic.otf") format('otf')
+}
+
+@font-face {
+  font-family: 'SF-D-Semi';
+  src: url("../fonts/SF-Pro-Display/SF-Pro-Display-Semibold.otf") format('otf')
+}
+
+@font-face {
+  font-family: 'SF-D-Semi-Italic';
+  src: url("../fonts/SF-Pro-Display/SF-Pro-Display-SemiboldItalic.otf") format('otf')
+}
+
+@font-face {
+  font-family: 'SF-D-Thin';
+  src: url("../fonts/SF-Pro-Display/SF-Pro-Display-Thin.otf") format('otf')
+}
+
+@font-face {
+  font-family: 'SF-D-Thin-Italic';
+  src: url("../fonts/SF-Pro-Display/SF-Pro-Display-ThinItalic.otf") format('otf')
+}
+
+@font-face {
+  font-family: 'SF-D-Ultralight';
+  src: url("../fonts/SF-Pro-Display/SF-Pro-Display-Ultralight.otf") format('otf')
+}
+
+@font-face {
+  font-family: 'SF-D-Ultralight-Italic';
+  src: url("../fonts/SF-Pro-Display/SF-Pro-Display-UltralightItalic.otf") format('otf')
+}
+
+/*SF-Pro-Text*/
+
+@font-face {
+  font-family: 'SF-T-Bold';
+  src: url("../fonts/SF-Pro-Text/SF-Pro-Text-Bold.otf") format('otf')
+}
+
+@font-face {
+  font-family: 'SF-T-Bold-Italic';
+  src: url("../fonts/SF-Pro-Text/SF-Pro-Text-BoldItalic.otf") format('otf')
+}
+
+@font-face {
+  font-family: 'SF-T-Heavy';
+  src: url("../fonts/SF-Pro-Text/SF-Pro-Text-Heavy.otf") format('otf')
+}
+
+@font-face {
+  font-family: 'SF-T-Heavy-Italic';
+  src: url("../fonts/SF-Pro-Text/SF-Pro-Text-HeavyItalic.otf") format('otf')
+}
+
+@font-face {
+  font-family: 'SF-T-Light';
+  src: url("../fonts/SF-Pro-Text/SF-Pro-Text-Light.otf") format('otf')
+}
+
+@font-face {
+  font-family: 'SF-T-Light-Italic';
+  src: url("../fonts/SF-Pro-Text/SF-Pro-Text-LightItalic.otf") format('otf')
+}
+
+@font-face {
+  font-family: 'SF-T-Medium';
+  src: url("../fonts/SF-Pro-Text/SF-Pro-Text-Medium.otf") format('otf')
+}
+
+@font-face {
+  font-family: 'SF-T-Medium-Italic';
+  src: url("../fonts/SF-Pro-Text/SF-Pro-Text-MediumItalic.otf") format('otf')
+}
+
+@font-face {
+  font-family: 'SF-T-Regular';
+  src: url("../fonts/SF-Pro-Text/SF-Pro-Text-Regular.otf") format('otf')
+}
+
+@font-face {
+  font-family: 'SF-T-Regular-Italic';
+  src: url("../fonts/SF-Pro-Text/SF-Pro-Text-RegularItalic.otf") format('otf')
+}
+
+@font-face {
+  font-family: 'SF-T-Semi';
+  src: url("../fonts/SF-Pro-Text/SF-Pro-Text-Semibold.otf") format('otf')
+}
+
+@font-face {
+  font-family: 'SF-T-Semi-Italic';
+  src: url("../fonts/SF-Pro-Text/SF-Pro-Text-SemiboldItalic.otf") format('otf')
+}
+
+/*PF-Display-Simp*/
+
+@font-face {
+  font-family: 'PF-T-Medium';
+  src: url("../fonts/PF-Display-Simp/PingFang Medium.ttf") format('ttf')
+}
+
+@font-face {
+  font-family: 'PF-T-Bold';
+  src: url("../fonts/PF-Display-Simp/PingFang Bold.otf") format('ttf')
+}
+
+@font-face {
+  font-family: 'PF-T-Regular';
+  src: url("../fonts/PF-Display-Simp/PingFang Regular.otf") format('ttf')
+}
+
+@font-face {
+  font-family: 'PF-T-Light';
+  src: url("../fonts/PF-Display-Simp/PingFang Light.ttf") format('ttf')
+}
+
+@font-face {
+  font-family: 'PF-T-Extralight';
+  src: url("../fonts/PF-Display-Simp/PingFang ExtraLight.ttf") format('ttf')
+}
+
+@font-face {
+  font-family: 'PF-T-Heavy';
+  src: url("../fonts/PF-Display-Simp/PingFang Heavy.ttf") format('ttf')
+}

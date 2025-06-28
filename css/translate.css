@@ -1,0 +1,27 @@
+.translate {
+	position: relative;
+	right: 0;
+	top: 40px;
+	width: 95%;
+	background-color: rgba(251,251,251,0.85);
+  	padding: 10px;
+  	z-index: 998;
+  	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(10,10,250,0.3);
+}
+
+.translate p {
+	text-align: center;
+	color: rgba(84,0,65,1.00);
+}
+
+.translate button {
+	border-radius: 5px;
+	background-color: rgba(251,251,251,0.0);
+}
+
+.translate button:hover {
+	background-color: rgba(37,112,216,0.8);
+	color: #fff;
+	transition: all 0.3s ease;
+}

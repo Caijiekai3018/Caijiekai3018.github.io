@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="us">
+	<head>
+		<meta charset="utf-8">
+		<title>Join us for building better pages | Insider Program</title>
+		<link href="jquery-ui.css" rel="stylesheet">
+		<style>
+		body{
+			font-family: Microsoft Yahei Default;
+			margin: 50px;
+			text-align: center;
+		}
+		.demoHeaders {
+			margin-top: 2em;
+		}
+		#dialog-link {
+			padding: .4em 1em .4em 20px;
+			text-decoration: none;
+			position: relative;
+		}
+		#dialog-link span.ui-icon {
+			margin: 0 5px 0 0;
+			position: absolute;
+			left: .2em;
+			top: 50%;
+			margin-top: -8px;
+		}
+		#icons {
+			margin: 0;
+			padding: 0;
+		}
+		#icons li {
+			margin: 2px;
+				position: relative;
+			padding: 4px 0;
+			cursor: pointer;
+			float: left;
+			list-style: none;
+		}
+		#icons span.ui-icon {
+			float: left;
+			margin: 0 4px;
+		}
+		.fakewindowcontain .ui-widget-overlay {
+			position: absolute;
+		}
+		select {
+			width: 200px;
+		}
+		a {
+			color: #;
+		}
+		</style>
+	</head>
+	<body>
+
+		<h1>Join us for building a better web pages!</h1>
+
+		<!-- Introduce -->
+		<div class="ui-widget">
+		<p>Recruit for the Insider Program on this site has recently begun.<br>You can select a channel and view the content.</p>
+		</div>
+
+		<!-- Benefits -->
+		<h2 class="demoHeaders">What are some benefits of joining the Insider Program?</h2>
+		<div id="accordion">
+			<h3>1. Badges</h3>
+			<div>Every Insiders will get a good badges in every year's end. You can collect them and show them on every year's Insiders meeting. The winner will get a exclusive Insider badges.</div>
+			<h3>2. Preview Our New Pages</h3>
+			<div>As a website insider member, you can join us to build new web pages and preview it before we release it.</div>
+			<h3>3. Get a great prise in our special sale.</h3>
+			<div>As a website insider member, you can get a great prise in our special sale.(Like autumn special sale). And you will enjoy free express shipping and the opportunity to get more rewards at the same price.</div>
+			<h3>4. Making suggestions to the site as an insider member.</h3>
+			<div>As a website insider member, you can make suggestions to the site, we will consider taking your suggestions as soon as possible.</div>
+		</div>
+
+		<!-- Channel Introduce -->
+		<h2 class="demoHeaders">Channel Introduce</h2>
+		<div id="tabs">
+			<ul>
+				<li><a href="#tabs-1">Beta Channel</a></li>
+				<li><a href="#tabs-2">Dev Channel</a></li>
+				<li><a href="#tabs-3">Preview Version Channel</a></li>
+			</ul>
+			<div id="tabs-1">The Beta channel is the closest to the real release for those who want to get early access to new features and information, and if you want to experience our upcoming new experiences, please join this channel.</div>
+			<div id="tabs-2">The Dev channel contains many features that are being experimented with and about to be experimented with. Some features may not be released, and these new features are highly volatile, so join this channel if you want to help experiment with new features. This channel's webpage is not supported by us.</div>
+			<div id="tabs-3">The Preview Version Channel is for those who need to preview our new web pages in advance. We'll be officially releasing our new page to the public some time after the content in the channel has been released. This channel is also suitable for business people.</div>
+		</div>
+
+		<!-- Licenses -->
+		<h2 class="demoHeaders">License of the program</h2>
+		<p>
+			<button id="dialog-link" class="ui-button ui-corner-all ui-widget">
+				<span class="ui-icon ui-icon-newwin"></span>Click this to open
+			</button>
+		</p>
+		<!-- ui-dialog -->
+		<div id="dialog" title="Licenses">
+			<p>
+				1. If you join this program, we will collect your device's imformation. The imformation include: OS , RAM , ROM , the version of the browser , User's name , User's phone number. These imformation can help us to improve our web pages. So if you don't agree to send these imformation , you can't join this program.
+			</p>
+			<p>
+				2. You can choose to change to another channel one week after joining the first channel, but you can't change channels within one month of joining another channel. Each person has 3 free channel changes, but you may be charged for continuing to change after using the opportunity.
+			</p>
+		</div>
+
+		<div class="ui-widget">
+			<div class="ui-state-highlight ui-corner-all" style="margin-top: 20px; padding: 0 .7em;">
+				<p><span class="ui-icon ui-icon-info" style="float: left; margin-right: .3em;"></span>
+				<strong>CAUTION!</strong>&nbsp;You must agree the licenses or you can not join the program.</p>
+			</div>
+		</div>
+
+		<!-- Join Channnel -->
+		<h2 class="demoHeaders">Join one of the channel</h2>
+		<button id="button" onclick="window.location.href='Choose.html'">Click here to choose channels you want to join.</button>
+
+		<p id="tooltip">This website used&nbsp;<a href="#" title="jQuery is an open source UI design. It is widely used in the web pages of various websites.">jQuery UI</a>. Here is the link to the jQuery website.</p>
+		<p>Links: <a href="https://www.jqueryui.org.cn/">Https://www.jqueryui.org.cn</a></p>
+		<p>jQuery License:&nbsp;<a href="jQueryLicense.html">Click here</a>&nbsp;to see.</p>
+
+<script src="external/jquery/jquery.js"></script>
+<script src="jquery-ui.js"></script>
+<script>
+$( "#accordion" ).accordion();
+
+var availableTags = [
+	"ActionScript",
+	"AppleScript",
+	"Asp",
+	"BASIC",
+	"C",
+	"C++",
+	"Clojure",
+	"COBOL",
+	"ColdFusion",
+	"Erlang",
+	"Fortran",
+	"Groovy",
+	"Haskell",
+	"Java",
+	"JavaScript",
+	"Lisp",
+	"Perl",
+	"PHP",
+	"Python",
+	"Ruby",
+	"Scala",
+	"Scheme"
+];
+$( "#autocomplete" ).autocomplete({
+	source: availableTags
+});
+
+$( "#button" ).button();
+$( "#button-icon" ).button({
+	icon: "ui-icon-gear",
+	showLabel: false
+});
+
+$( "#radioset" ).buttonset();
+
+$( "#controlgroup" ).controlgroup();
+
+$( "#tabs" ).tabs();
+
+$( "#dialog" ).dialog({
+	autoOpen: false,
+	width: 400,
+	buttons: [
+		{
+			text: "Ok",
+			click: function() {
+				$( this ).dialog( "close" );
+			}
+		},
+		{
+			text: "Cancel",
+			click: function() {
+				$( this ).dialog( "close" );
+			}
+		}
+	]
+});
+
+// Link to open the dialog
+$( "#dialog-link" ).click(function( event ) {
+	$( "#dialog" ).dialog( "open" );
+	event.preventDefault();
+});
+
+$( "#datepicker" ).datepicker({
+	inline: true
+});
+
+$( "#slider" ).slider({
+	range: true,
+	values: [ 17, 67 ]
+});
+
+$( "#progressbar" ).progressbar({
+	value: 20
+});
+
+$( "#spinner" ).spinner();
+
+$( "#menu" ).menu();
+
+$( "#tooltip" ).tooltip();
+
+$( "#selectmenu" ).selectmenu();
+
+// Hover states on the static widgets
+$( "#dialog-link, #icons li" ).hover(
+	function() {
+		$( this ).addClass( "ui-state-hover" );
+	},
+	function() {
+		$( this ).removeClass( "ui-state-hover" );
+	}
+);
+</script>
+</body>
+</html>

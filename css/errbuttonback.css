@@ -1,0 +1,33 @@
+.button{
+	border-radius: 5px;
+	position: absolute;
+	transform: translate(-50%, 50%);
+	bottom: 10%;
+	left: 50%;
+}
+
+.button button:hover {
+  background-color: rgba(37,112,216,0.65);  /* 设置鼠标悬停时的背景颜色 */
+  color: #fff;  /* 设置鼠标悬停时的文字颜色 */
+}
+
+.button button {
+  display: block;  /* 将菜单项转换为块级元素 */
+  text-decoration: none;  /* 去除菜单项的下划线 */
+  color: #333;  /* 设置菜单项的文字颜色 */
+  padding: 10px;  /* 设置菜单项内边距 */
+  border-radius: 5px;  /* 设置菜单项的圆角 */
+  transition: all 0.3s ease;  /* 添加过渡效果 */
+}
+
+.button p {
+  list-style: none;  /* 去除菜单项的默认样式 */
+  margin: 0;  /* 去除菜单项的外边距 */
+  padding: 0;  /* 去除菜单项的内边距 */
+}
+
+button {
+	background-color: rgba(20,20,20,0.45);
+	border: none;
+	font-size: 1.145141919810em;
+}

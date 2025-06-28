@@ -1,0 +1,35 @@
+.sidebar {
+  position: fixed;  /* 将侧边栏固定在页面上 */
+  top: 50%;  /* 将侧边栏垂直居中 */
+  left: 0;  /* 将侧边栏置于页面左侧 */
+  transform: translateY(-50%);  /* 将侧边栏垂直居中 */
+  width: 125px;  /* 设置侧边栏宽度 */
+  background-color: rgba(240,240,240,0.7);  /* 设置侧边栏背景颜色 */
+  padding: 10px;  /* 设置侧边栏内边距 */
+  box-shadow: 0 0 10px rgba(10,10,250,0.3);  /* 设置侧边栏阴影效果 */
+  border-radius: 5px;
+}
+
+.sidebar ul {
+  list-style: none;  /* 去除菜单项的默认样式 */
+  margin: 0;  /* 去除菜单项的外边距 */
+  padding: 0;  /* 去除菜单项的内边距 */
+}
+
+.sidebar li {
+  margin-bottom: 10px;  /* 设置菜单项之间的间距 */
+}
+
+.sidebar li a {
+  display: block;  /* 将菜单项转换为块级元素 */
+  text-decoration: none;  /* 去除菜单项的下划线 */
+  color: #333;  /* 设置菜单项的文字颜色 */
+  padding: 5px;  /* 设置菜单项内边距 */
+  border-radius: 5px;  /* 设置菜单项的圆角 */
+  transition: all 0.3s ease;  /* 添加过渡效果 */
+}
+
+.sidebar li a:hover {
+  background-color: rgba(37,112,216,0.8);  /* 设置鼠标悬停时的背景颜色 */
+  color: #fff;  /* 设置鼠标悬停时的文字颜色 */
+}

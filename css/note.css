@@ -1,0 +1,25 @@
+.note {
+  background-color: rgba(92, 157, 255, 0.38);
+  border: 1px solid rgba(0, 102, 255, 0.87);
+  border-radius: 8px;
+  padding: 10px;
+  width: 75%;
+	line-height: 0.5em;
+	justify-content: center;
+}
+
+.header {
+	color: rgba(50,50,50,1.00);
+	font-weight: 500;
+	font-size: 1.2em;
+	font-family: "Microsoft Yahei Bold";
+	padding: 0;
+	border: 0;
+	margin: 0;
+}
+
+.p {
+	color: rgba(120,0,140,1.00);
+	font-size: 0.8em;
+	font-family: Roboto;
+}

@@ -1,0 +1,47 @@
+/* 设置表格的整体样式 */
+table {
+  border-collapse: collapse;
+  width: 80%;
+  font-family: "Microsoft Jhenghei Light";
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background-color: rgba(92, 157, 255, 0.38);
+  /* border: 1px solid rgba(0, 102, 255, 0.87); */
+}
+
+/* 设置表格的表头样式 */
+th {
+  border-radius: 8px 0px 0px 0px;
+  background-color: rgba(74, 144, 255, 0.38);
+  /* border: 1px solid white; */
+  padding: 8px;
+  text-align: left;
+}
+
+/* 设置表格的单元格样式 */
+td {
+  /* border: 1px solid white; */
+  border: 1px;
+  padding: 8px;
+  text-align: center;
+}
+
+td header {
+  border-radius: 8px 0px 0px 0px;
+  background-color: rgba(92, 157, 255, 0.38);
+  /* border: 1px solid white; */
+  padding: 8px;
+  text-align: left;
+}
+
+/* 设置表格的奇偶行样式 */
+/*tr:nth-child(even) {
+  background-color: #f9f9f9;
+}*/
+
+/* 设置表格的鼠标悬停样式
+tr:hover {
+  border: 1px solid rgba(0, 57, 140, 0.87);
+  border-radius: 8px 8px 8px 8px;
+  background-color: rgba(0, 93, 218, 0.38);
+} */
