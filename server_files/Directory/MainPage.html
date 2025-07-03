@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  	<meta charset="utf-8" />
+  	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  	<title>Content</title>
+  	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  	<link rel="shortcut icon" href="favicon.ico" />
+  	<link href="../../css/navbar.css" rel="stylesheet">
+  	<link href="../../css/common.css" rel="stylesheet">
+</head>
+<body>
+  	<div class="navbar">
+  	<ul>
+    	<li style="font-size: 1.1em">HyperText Introduce Software Corp</li>
+    	<li>&nbsp;&nbsp;|&nbsp;&nbsp;</li>
+    	<li><a href="../../.oldIndex/index3.html">Company Introduce</a></li>
+    	<li>&nbsp;&nbsp;|&nbsp;&nbsp;</li>
+    	<li><a href="../Directory/MainPage.html">Index</a></li>
+		<li>&nbsp;&nbsp;|&nbsp;&nbsp;</li>
+		<li>Welcome! Now is
+			<script>
+			setInterval("jnkc.innerHTML=new Date().toLocaleString()+'日一二三四五六'.charAt(new Date().getDate());",1000);
+			</script>
+		</li>
+  	</ul>
+  	</div>
+		<h1>Contents</h1>
+    	<h2>Part 1 - Media and Canvas</h2>
+        	<a href="..\P01\01.html">1-01 | Sound - &lt;source&gt;</a><br/>
+        	<br/>
+        	<a href="..\P01\02.html">1-02 | Video - &lt;video&gt;</a><br/>
+        	<br/>
+        	<a href="..\P01\03.html">1-03 | Image - &lt;img&gt;</a><br/>
+        	<br/>
+        	<a href="..\P01\04.html">1-04 | Canvas - &lt;canvas&gt;</a><br/>
+        	<br/>
+			<a href="..\P01\04CanvasShow.html">1-05 | Instance of the Canvas</a><br/>
+        	<br/>
+    	<h2>Part 2 - Text class</h2>
+        	<a href="..\P02\01.html">2-01 | Word - &lt;p&gt;</a><br/>
+        	<br/>
+        	<a href="..\P02\02.html">2-02 | Paragraph - &lt;h&gt;</a><br/>
+        	<br/>
+        	<a href="..\Error\404 - Ch.html">2-03 | Title - &lt;title&gt;</a><br/>
+        	<br/>
+		<script>
+			var canvas = document.getElementById("Header");
+			var ctx = canvas.getContext("2d");
+			canvas.width = window.innerWidth;
+			canvas.height = 100;
+			ctx.fillStyle = "skyblue";
+			ctx.fillRect(0, 0, canvas.width, canvas.height);
+		</script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+@charset "utf-8";
+@keyframes bg-animation {
+  0% { background-color: #000000; }
+  25% { background-color: #440044;}
+  50% { background-color: #880088; }
+  75% { background-color: #bb00bb;}
+  100% { background-color: #ff00ff; }
+}

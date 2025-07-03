@@ -1,0 +1,10 @@
+.clock {
+  position: fixed;  /* 将侧边栏固定在页面上 */
+  right: 0;  /* 将侧边栏置于页面左侧 */
+  bottom: 0;
+  width: 150px;  /* 设置侧边栏宽度 */
+  background-color: rgba(240,240,240,0.7);  /* 设置侧边栏背景颜色 */
+  padding: 10px;  /* 设置侧边栏内边距 */
+  box-shadow: 0 0 10px rgba(10,10,250,0.3);  /* 设置侧边栏阴影效果 */
+  color: rgba(37,112,216,1.00);
+}

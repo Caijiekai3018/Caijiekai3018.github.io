@@ -1,0 +1,19 @@
+.ul ul{
+  list-style-type: none;
+  margin: 0;
+  border: 1px solid #717070;
+  padding: 10px;
+  background-color: rgba(240,240,240,0.65);
+  border-radius: 5px;
+}
+
+.ul ul li {
+  margin-bottom: 10px; /* Add some spacing between list items */
+}
+
+.ul ul li:before {
+  content: "\2022"; /* Add a bullet point symbol before each list item */
+  color: #000; /* Set the color of the bullet point */
+  font-size: 12px; /* Set the size of the bullet point */
+  margin-right: 5px; /* Add some spacing between the bullet point and the text */
+}

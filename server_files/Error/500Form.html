@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  		<title>500 Error Report</title>
+  		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  		<link href="../fonts/fonts.css" rel="stylesheet">
+  		<link rel="shortcut icon" href="favicon.ico" />
+		<style>
+    		body {
+      			font-family: sans-serif;
+      			font-size: 20px;
+      			color: #ffffff;
+      			line-height: 1.7em;
+    		}
+    		p {
+    			max-width: 90em;
+    			text-align: left;
+    		}
+    		a {
+      			text-decoration: none;
+      			color: #ffffff;
+      			position: relative;
+    		}
+    		a:after {
+      			content: "";
+      			position: absolute;
+      			z-index: -1;
+      			top: 60%;
+      			left: -0.1em;
+      			right: -0.1em;
+      			bottom: 0;
+      			transition: top 200ms cubic-bezier(0, .8, .13, 1);
+      			background-color: rgba(255,255,255,0.5);
+    		}
+    		a:hover:after {
+      			top: 0%;
+    		}
+  		</style>
+</head>
+<body style="background-color: #2068b4;">
+	<font style="text-align: center;">
+		<h1>
+			500 Server Error Report
+		</h1>
+	</font>
+	<h4 style="text-align: center;">
+		Please fill out a form regarding the "500 Error" page.
+	</h4>
+	<form action="..\form\500form.html" method="post" enctype="mime">
+		<p>0 Machine Test: Please CHOOSE the option "I am a human".<br>
+			<input type="radio" required="required" name="MachineTest" value="Human">I am a human.<br>
+			<input type="radio" required="required" name="MachineTest" value="Human">I am a machine.
+		</p>
+		<p>1 Please Enter Your Name Here.<br>
+			<input type="text" name="Name" size="30" maxlength="30" value="" required="required">
+		</p>
+		<p>2 Please Choose Your Gender.<br>
+			<input type="radio" required="required" name="Gender" value="Man">Man<br>
+			<input type="radio" required="required" name="Gender" value="Woman">Woman
+		</p>
+		<p>3.1 Please Choose Your Implement Before The Server Was Error.<br>
+			<input type="checkbox" name="Implement" value="Click">Click<br>
+			<input type="checkbox" name="Implement" value="Refresh">Refresh<br>
+			<input type="checkbox" name="Implement" value="Enter Value">Enter Value<br>
+			<input type="checkbox" name="Implement" value="View">View<br>
+			<input type="checkbox" name="Implement" value="Display sound or video">Display Sound or Video<br>
+			<input type="checkbox" name="Implement" value="Other">Other<br>
+			3.2 If you choose the option "Other", please enter the implement here.<br>
+			<textarea name="Options" cols="90" rows="10"></textarea>
+		</p>
+		<p>4. Please Enter Your Email Address.
+			<input type="email" required="required" name="EmailAddr">
+		</p>
+		<input type="reset" name="Reset" value="Reset Your Enter">
+		<input type="submit" name="Submit" value="Submit Your Enter">
+	</form>
+</body>
+</html>
